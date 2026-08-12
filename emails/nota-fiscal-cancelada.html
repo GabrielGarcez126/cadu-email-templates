@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <title>Nota Fiscal Cancelada</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    /* Reset */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
+    a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+
+    /* Client-specific */
+    #outlook a { padding: 0; }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass { width: 100%; }
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+
+    /* Responsive */
+    @media only screen and (max-width: 620px) {
+      .email-container { width: 100% !important; max-width: 100% !important; }
+      .fluid { max-width: 100% !important; height: auto !important; }
+      .stack-column { display: block !important; width: 100% !important; max-width: 100% !important; }
+      .stack-column-center { text-align: center !important; }
+      .center-on-narrow { text-align: center !important; display: block !important; margin-left: auto !important; margin-right: auto !important; float: none !important; }
+      .padding-mobile { padding-left: 16px !important; padding-right: 16px !important; }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;">
+  <!-- Preheader (hidden text for inbox preview) -->
+  <div style="display: none; font-size: 1px; color: #f4f4f4; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    Sua Nota Fiscal foi cancelada. Confira os detalhes do cancelamento.
+  </div>
+
+  <!-- Email wrapper -->
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f4f4f4;">
+    <tr>
+      <td align="center" style="padding: 24px 16px;">
+        <!--[if mso]>
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+        <tr>
+        <td>
+        <![endif]-->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 600px; margin: 0 auto;" class="email-container">
+
+          <!-- HEADER -->
+          <tr>
+            <td style="background-color: #27609d; padding: 32px 24px; text-align: left; border-radius: 8px 8px 0 0;">
+              <img src="https://via.placeholder.com/140x24/27609d/ffffff?text=CADU" alt="CADU" width="140" height="24" style="display: block; font-family: Arial, sans-serif; font-size: 18px; color: #ffffff;">
+            </td>
+          </tr>
+
+          <!-- TAG + NOTA NUMBER -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 24px 24px 20px 24px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="vertical-align: middle;">
+                    <span style="display: inline-block; background-color: #ffb9a0; color: #95000b; font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px;">CANCELADA</span>
+                  </td>
+                  <td style="text-align: right; vertical-align: middle;">
+                    <span style="font-size: 16px; font-weight: 700; color: #333333;">N&ordm; da nota: {{numero_nota}}</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- SEPARATOR -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 0 24px;">
+              <hr style="border: none; border-top: 1px solid #c6c6c5; margin: 0;">
+            </td>
+          </tr>
+
+          <!-- GREETING + STATUS -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 24px 24px 0 24px;">
+              <p style="margin: 0 0 8px 0; font-size: 16px; font-weight: 700; color: #333333;">Ol&aacute;, {{nome_do_cliente}} &#x1F44B;</p>
+              <h1 style="margin: 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.3;">Sua Nota Fiscal foi cancelada!</h1>
+            </td>
+          </tr>
+
+          <!-- DADOS DO TOMADOR -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 24px 24px 0 24px;">
+              <p style="margin: 0 0 8px 0; font-size: 12px; font-weight: 700; color: #666666; text-transform: uppercase; letter-spacing: 0.5px;">Dados do Tomador</p>
+              <p style="margin: 0 0 4px 0; font-size: 15px; color: #333333;">{{nome_tomador}}</p>
+              <p style="margin: 0; font-size: 15px; color: #333333;">{{cnpj_tomador}}</p>
+            </td>
+          </tr>
+
+          <!-- DETALHES DA NOTA FISCAL -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 24px 24px 0 24px;">
+              <p style="margin: 0 0 8px 0; font-size: 12px; font-weight: 700; color: #666666; text-transform: uppercase; letter-spacing: 0.5px;">Detalhes da Nota Fiscal</p>
+              <p style="margin: 0 0 4px 0; font-size: 15px; color: #333333;">Data do cancelamento: {{data_cancelamento}}</p>
+              <p style="margin: 0 0 4px 0; font-size: 15px; color: #333333;">Data da emiss&atilde;o: {{data_emissao}}</p>
+              <p style="margin: 0 0 4px 0; font-size: 15px; color: #333333;">Compet&ecirc;ncia: {{competencia}}</p>
+              <p style="margin: 0; font-size: 15px; color: #333333;">Valor: R$ {{valor_nf}}</p>
+            </td>
+          </tr>
+
+          <!-- PROMOTIONAL BANNER -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 32px 24px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: linear-gradient(135deg, #1a4f85 0%, #3a7bc8 100%); border-radius: 12px; overflow: hidden;">
+                <tr>
+                  <td style="padding: 32px 24px; text-align: center;">
+                    <h2 style="margin: 0 0 12px 0; font-size: 18px; font-weight: 700; color: #ffffff; line-height: 1.3;">Sua contabilidade na palma da m&atilde;o!</h2>
+                    <p style="margin: 0 0 4px 0; font-size: 13px; color: #ffffff; line-height: 1.5;">&#x2022; Emita suas notas fiscais com poucos cliques</p>
+                    <p style="margin: 0 0 4px 0; font-size: 13px; color: #ffffff; line-height: 1.5;">&#x2022; Gerencie seus impostos</p>
+                    <p style="margin: 0 0 20px 0; font-size: 13px; color: #ffffff; line-height: 1.5;">&#x2022; Tenha uma vis&atilde;o geral do faturamento da sua PJ</p>
+                    <a href="{{url_app}}" target="_blank" style="display: inline-block; background-color: #ffffff; color: #27609d; font-size: 14px; font-weight: 700; text-decoration: none; padding: 12px 24px; border-radius: 6px;">Baixar aplicativo</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="background-color: #27609d; padding: 32px 24px; border-radius: 0 0 8px 8px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding-bottom: 20px;">
+                    <img src="https://via.placeholder.com/140x24/27609d/ffffff?text=CADU" alt="CADU" width="140" height="24" style="display: block;">
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-bottom: 4px;">
+                    <p style="margin: 0; font-size: 13px; font-weight: 700; color: #ffffff;">CADU TECNOLOGIA E CONTABILIDADE LTDA</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-bottom: 20px;">
+                    <p style="margin: 0; font-size: 11px; color: #ffffff; opacity: 0.8;">CNPJ 60.661.488/0001-20</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td style="padding-right: 16px;">
+                          <a href="{{url_instagram}}" target="_blank" style="display: inline-block;">
+                            <img src="https://via.placeholder.com/24x24/27609d/ffffff?text=IG" alt="Instagram" width="24" height="24">
+                          </a>
+                        </td>
+                        <td style="padding-right: 16px;">
+                          <a href="{{url_website}}" target="_blank" style="display: inline-block;">
+                            <img src="https://via.placeholder.com/24x24/27609d/ffffff?text=WB" alt="Website" width="24" height="24">
+                          </a>
+                        </td>
+                        <td style="padding-right: 16px;">
+                          <a href="{{url_apple}}" target="_blank" style="display: inline-block;">
+                            <img src="https://via.placeholder.com/24x24/27609d/ffffff?text=AP" alt="App Store" width="24" height="24">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="{{url_play}}" target="_blank" style="display: inline-block;">
+                            <img src="https://via.placeholder.com/24x24/27609d/ffffff?text=GP" alt="Google Play" width="24" height="24">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
