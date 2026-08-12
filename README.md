@@ -1,2 +1,2 @@
 # cadu-email-templates
-Templates de email HTML responsivos para notas fiscais - CADU
+Templates de email HTML
